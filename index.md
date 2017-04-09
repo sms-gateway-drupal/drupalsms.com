@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## drupalsms.com > sms gateway
+## > sms gateway
 
 Drupalsms.com is just an info site for a Drupal project [SMS gateway](https://www.drupal.org/project/sms_gateway).
 
