@@ -2,122 +2,43 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Drupalsms.com is just an info site for a Drupal project `SMS gateway`.
 
-[Link to another page](another-page).
+SMS gateway currently in Drupal 7.x. The plan for 8.x port, will not happen any
+time soon.
 
-There should be whitespace between paragraphs.
+## Project info
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The sms gateway module provides a Drupal web interface for your sms transactions on your mobile phone with the use of the services provided by smsgateway.me.
 
-# [](#header-1)Header 1
+This includes per user configuration, sending messages, retrieving messages, managing contacts, group messaging, bulk messaging, and other things you can do with sms in your mobile phone.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The maintainers of the this module are not in any way affiliated with smsgateway.me.
 
-## [](#header-2)Header 2
+This project was posted in DO in 2016, but the actual development started last March 25, 2017, Saturday.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Installation
 
-### [](#header-3)Header 3
+1. Create account in [https://smsgateway.me/](smsgateway.me).
+2. Download and install *SMS Gateway* on your mobile phone and sign-in to your account.
+3. Download and enable *SMS Gateway* module into your Drupal v7.x website.
+4. Set username, which is your smsgateway.me email address, and your password, at /admin/config/sms-gateway.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Development phases
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+1. Setup of module files and dependencies.
+2. Setup sms-gateway config.
+3. List of Devices.
+4. Promote sandbox to full Drupal project.
+5. Contacts (individual).
+6. Messages (inbox).
+7. Message (individual thread).
+8. Write message form.
+9. Reply message form (at the bottom of an individual thread).
+10. Group contacts - contact containing several other contacts.
+11. Messages (inbox) to add listing of all outgoing messages to multiple contacts.
+12. Message (group thread).
+13. Reply message form to add sending to multiple contacts.
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Those in *bold* are done.
+Those in *_italic bold_* are currently in progress.
