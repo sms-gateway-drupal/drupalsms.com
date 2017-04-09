@@ -42,3 +42,17 @@ This project was posted in DO in 2016, but the actual development started last M
 
 Those in **bold** are done.
 Those in **_italic bold_** are currently in progress.
+
+## Contributions
+
+Contributions are welcome and can be done in various ways. These can be testing
+the module, [https://www.drupal.org/project/issues/2799679?categories=All](reporting issues),
+[https://www.drupal.org/project/sms_gateway/git-instructions](providing patches),
+among others.
+
+Co-maintainership are as well welcome.
+
+For this site, and the demo site, contributions can be made via github.
+
+* [https://github.com/sms-gateway-drupal/drupalsms.com](sms-gateway-drupal/drupalsms.com)
+* The demo site will be available after a stable version is released.
