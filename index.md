@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Drupalsms.com is just an info site for a Drupal project [https://www.drupal.org/project/sms_gateway](SMS gateway).
+Drupalsms.com is just an info site for a Drupal project [SMS gateway](https://www.drupal.org/project/sms_gateway).
 
 SMS gateway currently in Drupal 7.x. The plan for 8.x port, will not happen any
 time soon.
@@ -19,7 +19,7 @@ This project was posted in DO in 2016, but the actual development started last M
 
 ## Installation
 
-1. Create account in [https://smsgateway.me/](smsgateway.me).
+1. Create account in [smsgateway.me](https://smsgateway.me/).
 2. Download and install **SMS Gateway** on your mobile phone and sign-in to your account.
 3. Download and enable **SMS Gateway** module into your Drupal v7.x website.
 4. Set username, which is your smsgateway.me email address, and your password, at /admin/config/sms-gateway.
@@ -46,13 +46,13 @@ Those in **_italic bold_** are currently in progress.
 ## Contributions
 
 Contributions are welcome and can be done in various ways. These can be testing
-the module, [https://www.drupal.org/project/issues/2799679?categories=All](reporting issues),
-[https://www.drupal.org/project/sms_gateway/git-instructions](providing patches),
+the module, [reporting issues](https://www.drupal.org/project/issues/2799679?categories=All),
+[providing patches](https://www.drupal.org/project/sms_gateway/git-instructions),
 among others.
 
 Co-maintainership are as well welcome.
 
 For this site, and the demo site, contributions can be made via github.
 
-* [https://github.com/sms-gateway-drupal/drupalsms.com](sms-gateway-drupal/drupalsms.com)
+* [sms-gateway-drupal/drupalsms.com](https://github.com/sms-gateway-drupal/drupalsms.com)
 * The demo site will be available after a stable version is released.
