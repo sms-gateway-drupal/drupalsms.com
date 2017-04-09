@@ -22,9 +22,9 @@ This project was posted in DO in 2016, but the actual development started last M
 ## Installation
 
 1. Create account in [smsgateway.me](https://smsgateway.me/).
-2. Download and install **SMS Gateway** on your mobile phone and sign-in to your account.
-3. Download and enable **SMS Gateway** module into your Drupal v7.x website.
-4. Set username, which is your smsgateway.me email address, and your password, at /admin/config/sms-gateway.
+2. Download and install `SMS Gateway` on your mobile phone and sign-in to your account.
+3. Download and enable `SMS Gateway` module into your Drupal v7.x website.
+4. Set username, which is your smsgateway.me email address, and your password, at `/admin/config/sms-gateway`.
 
 ## Development phases
 
