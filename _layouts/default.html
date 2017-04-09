@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p><i>{{ site.description | default: site.github.project_tagline }}</i></p>
 
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
@@ -39,8 +39,9 @@
 
       </section>
       <footer>
-        <p>This website is using Jekyll and is maintained by the project maintainers of <a href="https://www.drupal.org/project/sms_gateway" target="_blank">SMS gateway</a>.</p>
-        <p><small>Hosted free on <a href="https://www.netlify.com/" target="_blank">Netlify</a> &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></small></p>
+        <p><small>This website is using Jekyll and is maintained by the project maintainers of <a href="https://www.drupal.org/project/sms_gateway" target="_blank">SMS gateway</a>.</small></p>
+        <p><small>The secure connection is verified by <a href="https://letsencrypt.org/" target="_blank">Let's Encrypt</a> &mdash; a free, automated, and open Certificate Authority.</small></p>
+        <p><small>This is hosted free on <a href="https://www.netlify.com/" target="_blank">Netlify</a> &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

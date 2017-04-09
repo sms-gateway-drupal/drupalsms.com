@@ -28,11 +28,11 @@ This project was posted in DO in 2016, but the actual development started last M
 
 ## Development phases
 
-1. Setup of module files and dependencies.
-2. Setup sms-gateway config.
-3. List of Devices.
-4. Promote sandbox to full Drupal project.
-5. Contacts (individual).
+1. _Setup of module files and dependencies._
+2. _Setup sms-gateway config._
+3. _List of Devices._
+4. _Promote sandbox to full Drupal project._
+5. **_Contacts (individual)._**
 6. Messages (inbox).
 7. Message (individual thread).
 8. Write message form.
@@ -42,7 +42,8 @@ This project was posted in DO in 2016, but the actual development started last M
 12. Message (group thread).
 13. Reply message form to add sending to multiple contacts.
 
-Those in **bold** are done.
+Those **italics** are done.
+
 Those in **_italic bold_** are currently in progress.
 
 ## Contributions
