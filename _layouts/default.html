@@ -14,8 +14,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <div class="site-logo"><img src="/assets/images/drupalsms.png" /></div>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <div class="site-logo-name-wrapper">
+          <img class="site-logo" src="/assets/images/drupalsms.png" />
+          <h1 class="site-name">{{ site.title | default: site.github.repository_name }}</h1>
+        </div>
         <p><i>{{ site.description | default: site.github.project_tagline }}</i></p>
 
         {% if site.github.is_project_page %}
